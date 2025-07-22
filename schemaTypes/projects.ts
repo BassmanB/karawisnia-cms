@@ -6,7 +6,7 @@ export default {
     { name: 'title', title: 'Title', type: 'string' },
     { name: 'projectOverviewTitle', title: "description title", type: 'string' },
     { name: 'description', title: 'Description', type: 'text' },
-    { name: 'projectOverview', title: 'Overview', type: 'text' },
+    { name: 'projectOverview', title: 'Overview', type: 'array', of: [{ type: 'block' }] },
     { name: 'categories', title: 'Categories', type: 'array', of: [{ type: 'string' }] },
     {
       name: 'images',
