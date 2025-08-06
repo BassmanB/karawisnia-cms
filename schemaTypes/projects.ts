@@ -56,8 +56,9 @@ export default {
     { name: 'designDetailsTitle', title: 'Section 2 title', type: 'string'},
     { name: 'designApproachTitle', title: "description title 2", type: 'string' },
     { name: 'designApproach', title: "descritpion 2", type: 'text' },
-    { name: 'vtitleeotitle', title: 'Vtitleeo', type: 'string'},
-    { name: 'tags', title: 'Tags', type: 'array', of: [{ type: 'string' }] }
+    { name: 'videoId', title: 'Video', type: 'string'},
+    { name: 'tags', title: 'Tags', type: 'array', of: [{ type: 'string' }] },
+    { name: 'id', title: 'ID', type: 'string' }
   ],
 }
 
