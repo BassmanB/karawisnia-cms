@@ -54,9 +54,9 @@ export default {
       ]
     },
     { name: 'conceptDevelopmentTitle', title: "description left section title", type: 'string'},
-    { name: 'conceptDevelopment', title: "description left section", type: 'text'},
+    { name: 'conceptDevelopment', title: "description left section",  type: 'array', of: [{ type: 'block' }] },
     { name: 'designApproachTitle', title: "description title right section", type: 'string' },
-    { name: 'designApproach', title: "descritpion right section", type: 'text' },
+    { name: 'designApproach', title: "descritpion right section",  type: 'array', of: [{ type: 'block' }] },
     { name: 'videoId', title: 'Video', type: 'string'},
     { name: 'tags', title: 'Tags', type: 'array', of: [{ type: 'string' }] },
     { name: 'id', title: 'ID', type: 'string' }
