@@ -38,7 +38,7 @@ export default {
     },
     { name: 'client', title: 'Client', type: 'string' },
     { name: 'year', title: 'Year', type: 'string' },
-    { name: 'cooperation', title: 'Cooperation', type: 'string' },
+    { name: 'cooperation', title: 'Cooperation', type: 'array', of: [{ type: 'block' }] },
     {
       name: 'images2',
       title: 'Images 2',
